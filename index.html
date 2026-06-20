@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>My Website</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Landing Page</h1>
+        <p>Create beautiful websites with HTML, CSS and JavaScript.</p>
+        <button onclick="startProject()">Get Started</button>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            We create modern and responsive websites that provide the best user experience across all devices.
+        </p>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Modern and attractive website designs.</p>
+            </div>
+
+            <div class="card">
+                <h3>Responsive Design</h3>
+                <p>Websites that work on all devices.</p>
+            </div>
+
+            <div class="card">
+                <h3>Frontend Development</h3>
+                <p>Interactive websites using HTML, CSS and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    <section id="register" class="contact">
+    <h2>Register Now</h2>
+
+    <form id="registerForm">
+        <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+
+        <input type="email" id="email" placeholder="Enter Your Email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: lakshmi@example.com</p>
+        <p>Phone: +91 7892123571</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Lakshmi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
